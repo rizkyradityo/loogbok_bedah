@@ -1,0 +1,118 @@
+CRITICAL - 2021-07-25 01:21:40 --> Undefined property: App\Controllers\Admin\Calendar_event::$input
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 53, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->add_event()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:22:09 --> Undefined variable: data
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Calendar_event_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 26, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(60): App\Models\Calendar_event_model->insert_c(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->add_event()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-25 01:27:00 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 54, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->add_event()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:29:11 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:29:38 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('admin/calendar_...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(761): CodeIgniter\Router\Router->handle('admin/calendar_...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(374): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:29:50 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:29:51 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:29:51 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:29:52 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:29:52 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-25 01:30:49 --> Unknown column 'calendar_id' in 'field list'
+CRITICAL - 2021-07-25 01:30:49 --> Unknown column 'calendar_id' in 'field list'
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ca...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Calendar_event_model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(62): App\Models\Calendar_event_model->insert_c(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->add_event()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-25 01:32:09 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:32:11 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:34:24 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to int
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', '/Applications/X...', 65, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->add_event()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-25 01:53:55 --> Unknown column 'create_atx' in 'field list'
+CRITICAL - 2021-07-25 01:53:55 --> Unknown column 'create_atx' in 'field list'
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ca...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Calendar_event_model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Calendar_event.php(63): App\Models\Calendar_event_model->insert_c(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Calendar_event->add_event()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Calendar_event))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

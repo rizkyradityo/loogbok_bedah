@@ -1,0 +1,950 @@
+CRITICAL - 2021-06-12 05:09:32 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:10:41 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:10:42 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:10:43 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:13:29 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:14:19 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:14:20 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:14:20 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:14:21 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:14:22 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:14:23 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:14:48 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:10 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:11 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:12 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:13 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:14 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:33 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:34 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:48 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:49 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:49 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:16:50 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:18:05 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:19:51 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:20:17 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:20:18 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:13 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:40 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:41 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:42 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:42 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:43 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:44 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:44 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:22:54 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:23:19 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:25:21 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:25:22 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:25:23 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:25:23 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:25:49 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:25:50 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:27:27 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:27:43 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:28:49 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:28:59 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:29:00 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:32:20 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:32:22 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:34:25 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:34:26 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:35:41 --> Class 'Oauth\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:35:43 --> Class 'Oauth\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:40:16 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:49:09 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:49:10 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:49:10 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:49:11 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:49:12 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:49:12 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:49:13 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth.php(13): App\Libraries\Oauth->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:50:01 --> Class 'App\Libraries\Oauth' not found
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 05:50:02 --> Class 'App\Libraries\Oauth' not found
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 05:50:03 --> Class 'App\Libraries\Oauth' not found
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 05:50:20 --> Class 'App\Controllers\Oauth2' not found
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 05:50:21 --> Class 'App\Controllers\Oauth2' not found
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 05:50:22 --> Class 'App\Controllers\Oauth2' not found
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 05:50:34 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:50:35 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:50:36 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:50:36 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:50:37 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:56:11 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:56:12 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:56:13 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:56:14 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 05:58:47 --> Call to a member function handleTokenRequest() on null
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 05:59:58 --> Call to a member function handleTokenRequest() on null
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 05:59:59 --> Call to a member function handleTokenRequest() on null
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 06:00:50 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 06:00:51 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 06:01:13 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 06:01:14 --> Class 'Oauth2\Storage\Pdo' not found
+#0 /Library/WebServer/Documents/rest-api/app/Libraries/Oauth2.php(13): App\Libraries\Oauth2->init()
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(14): App\Libraries\Oauth2->__construct()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 06:01:44 --> Call to a member function handleTokenRequest() on null
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 06:01:46 --> Call to a member function handleTokenRequest() on null
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 06:02:11 --> Call to a member function handleTokenRequest() on null
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 06:02:46 --> Call to undefined method OAuth2\Response::getStatusBody()
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 06:02:47 --> Call to undefined method OAuth2\Response::getStatusBody()
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-12 06:02:48 --> Call to undefined method OAuth2\Response::getStatusBody()
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+ERROR - 2021-06-12 07:22:05 --> Table 'kupangan.tbl_food' doesn't exist
+CRITICAL - 2021-06-12 07:22:05 --> Table 'kupangan.tbl_food' doesn't exist
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.*, `...')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(18): App\Models\M_Food->getProductAll()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->index()
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#8 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#11 {main}
+CRITICAL - 2021-06-12 07:59:58 --> Undefined offset: 3
+#0 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 116, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(29): App\Models\M_Food->getProductDetail('AR005')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR005')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 08:03:55 --> Undefined variable: result
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 38, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR005')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-12 08:03:57 --> Undefined variable: result
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 38, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR005')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+ERROR - 2021-06-12 08:15:12 --> Table 'kupangan.tbl_foood' doesn't exist
+CRITICAL - 2021-06-12 08:15:12 --> Table 'kupangan.tbl_foood' doesn't exist
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`foo...')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`foo...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`foo...')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`foo...', Array, false)
+#4 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#8 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#11 {main}
+CRITICAL - 2021-06-12 08:17:40 --> Undefined variable: db
+#0 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 85, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 08:17:41 --> Undefined variable: db
+#0 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 85, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-12 08:19:05 --> Trying to get property 'errno' of non-object
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(658): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 658, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(85): CodeIgniter\Database\MySQLi\Connection->error()
+#2 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#8 {main}
+CRITICAL - 2021-06-12 08:19:06 --> Trying to get property 'errno' of non-object
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(658): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 658, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(85): CodeIgniter\Database\MySQLi\Connection->error()
+#2 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#8 {main}
+CRITICAL - 2021-06-12 08:19:18 --> Trying to get property 'errno' of non-object
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(658): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 658, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(85): CodeIgniter\Database\MySQLi\Connection->error()
+#2 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#8 {main}
+CRITICAL - 2021-06-12 08:19:19 --> Trying to get property 'errno' of non-object
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(658): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 658, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Models/M_Food.php(85): CodeIgniter\Database\MySQLi\Connection->error()
+#2 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#8 {main}
+ERROR - 2021-06-12 08:22:40 --> Table 'kupangan.tbl_foood' doesn't exist
+CRITICAL - 2021-06-12 08:22:40 --> Call to a member function getResultArray() on bool
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+ERROR - 2021-06-12 08:22:41 --> Table 'kupangan.tbl_foood' doesn't exist
+CRITICAL - 2021-06-12 08:22:41 --> Call to a member function getResultArray() on bool
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+ERROR - 2021-06-12 08:22:42 --> Table 'kupangan.tbl_foood' doesn't exist
+CRITICAL - 2021-06-12 08:22:42 --> Call to a member function getResultArray() on bool
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/Kupangan.php(26): App\Models\M_Food->getProductDetail('AR004')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Kupangan->show('AR004')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kupangan))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-12 08:57:03 --> Undefined variable: respond
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/Foodlist.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 23, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\FoodList->index()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodList))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-12 09:05:10 --> syntax error, unexpected ']'
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('user/login')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(761): CodeIgniter\Router\Router->handle('user/login')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(374): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-12 09:05:22 --> Use of undefined constant access_token - assumed 'access_token' (this will throw an Error in a future version of PHP)
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Library/WebSer...', 21, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-12 09:05:43 --> Illegal string offset 'access_token'
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Library/WebSer...', 21, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}

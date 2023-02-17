@@ -1,0 +1,643 @@
+ERROR - 2021-07-23 19:43:15 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 19:43:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-23 20:33:19 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:33:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-23 20:45:17 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:45:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `foodId`...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/FoodModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Pages.php(37): App\Models\FoodModel->getProduct()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Pages->input()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-23 20:45:17 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Views/errors/html/error_exception.php:99
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/Applications/X...', 99, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Views/errors/html/error_exception.php(99): print_r(Object(App\Controllers\Pages), true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(278): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-07-23 20:45:35 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:45:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-23 20:45:56 --> Undefined property: App\Controllers\Login::$session
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 79, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->logout()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-23 20:46:04 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:46:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `foodId`...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/FoodModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Pages.php(37): App\Models\FoodModel->getProduct()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Pages->input()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-23 20:46:04 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Views/errors/html/error_exception.php:99
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/Applications/X...', 99, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Views/errors/html/error_exception.php(99): print_r(Object(App\Controllers\Pages), true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(278): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-07-23 20:46:19 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:46:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-23 20:46:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:46:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-23 20:46:58 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:46:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-23 20:47:16 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:47:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-07-23 20:49:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-07-23 20:49:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-23 21:05:18 --> Cache unable to write to {0}.
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php(68): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Cache/CacheFactory.php(55): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/Services.php(110): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(263): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/Services.php(105): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(263): CodeIgniter\Config\Services::cache()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(74): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(613): cache()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(313): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#10 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-23 21:06:50 --> Cache unable to write to {0}.
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php(68): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Cache/CacheFactory.php(55): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/Services.php(110): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(263): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/Services.php(105): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(263): CodeIgniter\Config\Services::cache()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(74): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(613): cache()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(313): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#10 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-23 21:07:31 --> Cache unable to write to {0}.
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php(68): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Cache/CacheFactory.php(55): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/Services.php(110): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(263): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/Services.php(105): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(263): CodeIgniter\Config\Services::cache()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(74): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(613): cache()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(313): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#10 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-23 21:07:32 --> Cache unable to write to {0}.
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php(68): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Cache/CacheFactory.php(55): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/Services.php(110): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(263): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/Services.php(105): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Config/BaseService.php(263): CodeIgniter\Config\Services::cache()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(74): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(613): cache()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(313): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#10 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-07-23 21:09:01 --> No database selected
+CRITICAL - 2021-07-23 21:09:01 --> No database selected
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-23 21:09:27 --> No database selected
+CRITICAL - 2021-07-23 21:09:27 --> No database selected
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(23): App\Models\Konfigurasi_model->listing()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-07-23 21:13:30 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:13:55 --> Undefined property: App\Controllers\Login::$session
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 79, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->logout()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 21:13:59 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:15:59 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:16:00 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:16:02 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:16:20 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:16:21 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:16:55 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:16:56 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:17:48 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:18:27 --> Undefined property: App\Controllers\Login::$session
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 79, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->logout()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 21:23:21 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:25:11 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:27:11 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:27:13 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:28:22 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:28:24 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:29:12 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:29:13 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:29:24 --> Undefined property: App\Controllers\Login::$session
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 79, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->logout()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 21:29:40 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:29:43 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:30:54 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:30:54 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:31:32 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:31:33 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:31:42 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:33:04 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:33:05 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:36:59 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:37:00 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:37:00 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:37:17 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:37:48 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:42:52 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:46:23 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('login/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(55): view('login/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-23 21:51:54 --> Undefined property: App\Controllers\Login::$session
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 37, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 21:55:06 --> Undefined property: App\Controllers\Login::$session
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 15, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(847): App\Controllers\Login->__construct()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->createController()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 21:55:10 --> Undefined property: App\Controllers\Login::$session
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 15, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(847): App\Controllers\Login->__construct()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->createController()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 21:59:55 --> Call to undefined function App\Controllers\Admin\checklogin()
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Dasbor->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dasbor))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 22:03:19 --> Call to undefined function App\Controllers\Admin\checklogin()
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Dasbor->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dasbor))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 22:03:19 --> Call to undefined function App\Controllers\Admin\checklogin()
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Dasbor->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dasbor))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 22:03:20 --> Call to undefined function App\Controllers\Admin\checklogin()
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Dasbor->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dasbor))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 22:03:32 --> Undefined property: App\Controllers\Login::$session
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 38, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Login->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 22:04:44 --> Call to undefined function App\Controllers\Admin\checklogin()
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Dasbor->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dasbor))
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 22:06:25 --> Call to undefined function icon()
+#0 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Views/admin/layout/wrapper.php(8): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kupangan/app/Controllers/Admin/Dasbor.php(15): view('admin/layout/wr...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Dasbor->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dasbor))
+#7 /Applications/XAMPP/xamppfiles/htdocs/kupangan/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kupangan/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

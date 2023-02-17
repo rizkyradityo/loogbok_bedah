@@ -1,0 +1,46 @@
+CRITICAL - 2021-08-21 21:36:13 --> Undefined variable: id_download
+#0 /Applications/XAMPP/xamppfiles/htdocs/logbook/app/Controllers/Admin/File_download.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 207, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\File_download->view_file()
+#2 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\File_download))
+#3 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/logbook/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 21:36:22 --> Undefined variable: id_download
+#0 /Applications/XAMPP/xamppfiles/htdocs/logbook/app/Controllers/Admin/File_download.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 207, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\File_download->view_file()
+#2 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\File_download))
+#3 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/logbook/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 21:37:10 --> Undefined variable: id_download
+#0 /Applications/XAMPP/xamppfiles/htdocs/logbook/app/Controllers/Admin/File_download.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 207, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\File_download->view_file()
+#2 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\File_download))
+#3 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/logbook/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 21:38:07 --> Undefined variable: id_download
+#0 /Applications/XAMPP/xamppfiles/htdocs/logbook/app/Controllers/Admin/File_download.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 207, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\File_download->view_file()
+#2 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\File_download))
+#3 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/logbook/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 21:39:42 --> File not found: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/Files/File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(116): CodeIgniter\Files\File->__construct('/Applications/X...', true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(786): CodeIgniter\HTTP\DownloadResponse->setFilePath('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/logbook/app/Controllers/Admin/File_download.php(187): CodeIgniter\HTTP\Response->download('DFD.pdf', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\File_download->unduh('1')
+#5 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\File_download))
+#6 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/logbook/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-21 21:42:13 --> Could not move file {0} to {1} ({2})
+#0 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpdJx1e1', '/Applications/X...', '')
+#1 /Applications/XAMPP/xamppfiles/htdocs/logbook/app/Controllers/Admin/File_download.php(139): CodeIgniter\HTTP\Files\UploadedFile->move('/Applications/X...', '0820-FO-backup-...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\File_download->edit('1')
+#3 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\File_download))
+#4 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/logbook/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

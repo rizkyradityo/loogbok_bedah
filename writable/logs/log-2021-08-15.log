@@ -1,0 +1,14 @@
+CRITICAL - 2021-08-15 06:44:00 --> Undefined variable: user
+#0 /Applications/XAMPP/xamppfiles/htdocs/logbook/app/Controllers/Admin/Group_logbook.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 65, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Group_logbook->edit('1')
+#2 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Group_logbook))
+#3 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/logbook/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-15 06:48:56 --> Undefined variable: id_user
+#0 /Applications/XAMPP/xamppfiles/htdocs/logbook/app/Controllers/Admin/Group_logbook.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 60, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\Admin\Group_logbook->edit('1')
+#2 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Group_logbook))
+#3 /Applications/XAMPP/xamppfiles/htdocs/logbook/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/logbook/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

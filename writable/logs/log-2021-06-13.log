@@ -1,0 +1,311 @@
+CRITICAL - 2021-06-13 04:31:24 --> Trying to get property 'access_token' of non-object
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 19, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 04:31:51 --> Trying to get property 'access_token' of non-object
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 19, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 04:32:12 --> Trying to get property 'access_token' of non-object
+#0 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 19, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 04:38:21 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Library/WebSer...', 25, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(25): json_decode(Object(stdClass))
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-13 04:42:03 --> syntax error, unexpected ';', expecting ']'
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('user/login')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(761): CodeIgniter\Router\Router->handle('user/login')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(374): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 05:10:20 --> The format {"status":401,"message":"The access token provided is invalid","data":null} is not supported
+#0 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Response.php(299): OAuth2\Response->getResponseBody('{"status":401,"...')
+#1 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(23): OAuth2\Response->send('{"status":401,"...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/BR005', 'before')
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-13 05:10:41 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 271, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Response.php(271): sprintf('The format %s i...', Array)
+#2 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Response.php(299): OAuth2\Response->getResponseBody(Array)
+#3 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(23): OAuth2\Response->send(Array)
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/BR005', 'before')
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#9 {main}
+CRITICAL - 2021-06-13 05:10:53 --> The format aa is not supported
+#0 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Response.php(299): OAuth2\Response->getResponseBody('aa')
+#1 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(23): OAuth2\Response->send('aa')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/BR005', 'before')
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-13 05:10:54 --> The format aa is not supported
+#0 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Response.php(299): OAuth2\Response->getResponseBody('aa')
+#1 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(23): OAuth2\Response->send('aa')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/BR005', 'before')
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#7 {main}
+CRITICAL - 2021-06-13 20:10:20 --> Undefined property: OAuth2\Response::$error_description
+#0 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Library/WebSer...', 24, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 20:10:44 --> Trying to get property 'error_description' of non-object
+#0 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 24, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 20:11:08 --> Call to undefined method OAuth2\Server::getResponseBody()
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-13 20:13:03 --> Object of class stdClass could not be converted to string
+#0 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(25): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/Library/WebSer...', 25, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 20:13:50 --> Call to a member function getStatusCode() on bool
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-13 20:14:01 --> Call to a member function getResponseBody() on bool
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-13 20:14:19 --> Call to a member function getResponse() on bool
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-13 20:19:09 --> Call to undefined method OAuth2\Server::getParameters()
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-06-13 20:21:04 --> Array to string conversion
+#0 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 23, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 20:21:52 --> Undefined index: error_description
+#0 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Library/WebSer...', 24, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-06-13 20:25:20 --> Undefined index: error_description
+#0 /Library/WebServer/Documents/rest-api/app/Filters/OauthFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Library/WebSer...', 24, Array)
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Filters/Filters.php(181): App\Filters\OauthFilter->before(Object(OAuth2\Request), NULL)
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('foodlist/AR003', 'before')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+ERROR - 2021-06-13 21:23:16 --> Table 'kupangan.users' doesn't exist
+CRITICAL - 2021-06-13 21:23:16 --> Table 'kupangan.users' doesn't exist
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT 1\nFROM `...')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(312): CodeIgniter\Validation\Rules->is_unique('tes@gmail.com', 'email', Array, NULL)
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('email', 'email', 'tes@gmail.com', Array, Array)
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Controller.php(183): CodeIgniter\Validation\Validation->run()
+#8 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(53): CodeIgniter\Controller->validate(Array)
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->register()
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#14 {main}
+ERROR - 2021-06-13 21:23:41 --> Table 'kupangan.users' doesn't exist
+CRITICAL - 2021-06-13 21:23:41 --> Table 'kupangan.users' doesn't exist
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT 1\nFROM `...')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(312): CodeIgniter\Validation\Rules->is_unique('tes@gmail.com', 'email', Array, NULL)
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('email', 'email', 'tes@gmail.com', Array, Array)
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Controller.php(183): CodeIgniter\Validation\Validation->run()
+#8 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(53): CodeIgniter\Controller->validate(Array)
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->register()
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#14 {main}
+ERROR - 2021-06-13 21:23:45 --> Table 'kupangan.users' doesn't exist
+CRITICAL - 2021-06-13 21:23:45 --> Table 'kupangan.users' doesn't exist
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT 1\nFROM `...')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(312): CodeIgniter\Validation\Rules->is_unique('tes@gmail.com', 'email', Array, NULL)
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('email', 'email', 'tes@gmail.com', Array, Array)
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Controller.php(183): CodeIgniter\Validation\Validation->run()
+#8 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(53): CodeIgniter\Controller->validate(Array)
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->register()
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#14 {main}
+ERROR - 2021-06-13 21:25:15 --> Table 'kupangan.users' doesn't exist
+CRITICAL - 2021-06-13 21:25:15 --> Table 'kupangan.users' doesn't exist
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT 1\nFROM `...')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(312): CodeIgniter\Validation\Rules->is_unique('tes@gmail.com', 'email', Array, NULL)
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('email', 'email', 'tes@gmail.com', Array, Array)
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Controller.php(183): CodeIgniter\Validation\Validation->run()
+#8 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(53): CodeIgniter\Controller->validate(Array)
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->register()
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#14 {main}
+ERROR - 2021-06-13 21:26:03 --> Table 'kupangan.users' doesn't exist
+CRITICAL - 2021-06-13 21:26:03 --> Table 'kupangan.users' doesn't exist
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT 1\nFROM `...')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(312): CodeIgniter\Validation\Rules->is_unique('tes@gmail.com', 'email', Array, NULL)
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('email', 'email', 'tes@gmail.com', Array, Array)
+#7 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Controller.php(183): CodeIgniter\Validation\Validation->run()
+#8 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(53): CodeIgniter\Controller->validate(Array)
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->register()
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#14 {main}
+ERROR - 2021-06-13 21:27:16 --> Unknown column 'firstname' in 'field list'
+CRITICAL - 2021-06-13 21:27:16 --> Unknown column 'firstname' in 'field list'
+#0 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `oa...')
+#1 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `oa...')
+#2 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `oa...')
+#3 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `oa...', Array, false)
+#4 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(65): CodeIgniter\Model->insert(Array)
+#8 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->register()
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#13 {main}
+CRITICAL - 2021-06-13 22:27:41 --> Interface 'Oauth2\Storage\AuthorizationCodeInterface' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-13 22:44:32 --> array_merge(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/Library/WebSer...', 462, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Libraries/CustomOauthStorage.php(462): array_merge(Array, NULL)
+#2 /Library/WebServer/Documents/rest-api/app/Libraries/CustomOauthStorage.php(311): App\Libraries\CustomOauthStorage->getUser('tes@gmail.com')
+#3 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('tes@gmail.com', '12345678')
+#4 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+#5 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+#6 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php(320): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+#7 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(17): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+#8 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#13 {main}
+CRITICAL - 2021-06-13 22:57:20 --> array_merge(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/Library/WebSer...', 462, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Libraries/CustomOauthStorage.php(462): array_merge(Array, NULL)
+#2 /Library/WebServer/Documents/rest-api/app/Libraries/CustomOauthStorage.php(311): App\Libraries\CustomOauthStorage->getUser('3')
+#3 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('3', 'password')
+#4 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+#5 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+#6 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php(320): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+#7 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(17): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+#8 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#13 {main}
+CRITICAL - 2021-06-13 23:41:09 --> array_merge(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/Library/WebSer...', 462, Array)
+#1 /Library/WebServer/Documents/rest-api/app/Libraries/CustomOauthStorage.php(462): array_merge(Array, NULL)
+#2 /Library/WebServer/Documents/rest-api/app/Libraries/CustomOauthStorage.php(311): App\Libraries\CustomOauthStorage->getUser('tes2@gmail.com1')
+#3 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php(57): App\Libraries\CustomOauthStorage->checkUserCredentials('tes2@gmail.com1', '12345678')
+#4 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php(175): OAuth2\GrantType\UserCredentials->validateRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+#5 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php(87): OAuth2\Controller\TokenController->grantAccessToken(Object(OAuth2\Request), Object(OAuth2\Response))
+#6 /Library/WebServer/Documents/rest-api/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php(320): OAuth2\Controller\TokenController->handleTokenRequest(Object(OAuth2\Request), Object(OAuth2\Response))
+#7 /Library/WebServer/Documents/rest-api/app/Controllers/User.php(17): OAuth2\Server->handleTokenRequest(Object(OAuth2\Request))
+#8 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(872): App\Controllers\User->login()
+#9 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Library/WebServer/Documents/rest-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /Library/WebServer/Documents/rest-api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#13 {main}
